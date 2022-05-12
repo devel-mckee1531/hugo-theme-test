@@ -1,0 +1,12 @@
+name = "Tech Blog Theme"
+license = "MIT"
+licenselink = ""
+description = ""
+homepage = ""
+tags = []
+features = []
+min_version = ""
+
+[author]
+  name = "r-makino"
+  homepage = ""
