@@ -1,6 +1,7 @@
 *
 !.git*
 !README.md
+!theme.toml
 !package.json
 !tsconfig.json
 !webpack.config.js
