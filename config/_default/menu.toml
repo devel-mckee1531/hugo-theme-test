@@ -1,0 +1,65 @@
+[[footer]]
+  identifier = "privacy"
+  name = "プライバシーポリシー"
+  title = "This is our privacy policy page."
+  url = "https://e2e-inc.co.jp/privacypolicy/"
+  weight = -30
+[[footer]]
+  identifier = "companyInfo"
+  name = "会社情報"
+  title = "This is our company profile page."
+  url = "https://e2e-inc.co.jp/company/"
+  weight = -20
+[[footer]]
+  identifier = "services"
+  name = "提供サービス"
+  title = "提供サービス"
+  url = "https://e2e-inc.co.jp/service/"
+  weight = -10
+[[footer]]
+  identifier = "wpMake"
+  name = "wp.make"
+  title = "This is our wordpress development service."
+  url = "https://e2e-inc.co.jp/service/wp_make/"
+  weight = 10
+  parent = "services"
+[[footer]]
+  identifier = "wpSupport"
+  name = "wp.support"
+  title = "This is our wordpress support service."
+  url = "https://e2e-inc.co.jp/service/wp_support/"
+  weight = 20
+  parent = "services"
+[[footer]]
+  identifier = "wpRescue"
+  name = "wp.rescue"
+  title = "This is our wordpress rescue service."
+  url = "https://e2e-inc.co.jp/service/wp_rescue/"
+  weight = 30
+  parent = "services"
+[[footer]]
+  identifier = "wpVersionUp"
+  name = "wp.versionup"
+  title = "This is our wordpress version up service."
+  url = "https://e2e-inc.co.jp/service/wp_versionup/"
+  weight = 40
+  parent = "services"
+[[footer]]
+  identifier = "wpGeek"
+  name = "wp.geek"
+  title = "This is our wordpress blog."
+  url = "https://wpmake.jp/contents/"
+  weight = 50
+  parent = "services"
+[[footer]]
+  identifier = "recruit"
+  name = "採用情報"
+  title = "This is our recruit page."
+  url = "https://e2e-inc.co.jp/recruit/"
+  weight = 10
+[[footer]]
+  identifier = "contact"
+  name = "お問い合わせ"
+  title = "This is our contact page."
+  url = "https://e2e-inc.co.jp/contact/"
+  weight = 10

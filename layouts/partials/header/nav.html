@@ -1,0 +1,28 @@
+<nav>
+  <ul class="row">
+    <li class="col-4">
+      {{ .Site.Title }}
+    </li>
+    <li class="col-2">
+      <span>TAGs</span>
+      <ul class="row">
+        {{ range .Site.Taxonomies.tags.Alphabetical }}
+          <li class="col-4">
+            <a href="{{ .Page.Permalink }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
+    </li>
+    <li class="col-2">
+      <label for="searchInput">
+        SEARCH
+      </label>
+      <input type="text" id="searchInput" placeholder="キーワード検索" />
+    </li>
+    <li class="col-4">
+      {{ partial "common/sns.html" . }}
+    </li>
+  </ul>
+</nav>

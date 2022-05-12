@@ -1,0 +1,12 @@
+baseurl = "/"
+copyright = "e2e inc"
+defaultContentLanguage = "ja"
+disableKinds = []
+enableEmoji = false
+enableInlineShortcodes = false
+enableRobotsTXT = true
+googleAnalytics = ""
+hasCJKLanguage = true
+languageCode = "ja-jp"
+paginate = 6
+title = "Tech Blog"

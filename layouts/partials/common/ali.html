@@ -1,0 +1,34 @@
+<article class="row">
+  <a class="col-12" href="{{ .Permalink }}">
+      <figure>
+        {{ with .Resources.GetMatch "featuredImage" -}}
+        {{ $image := .Resize "300x" }}
+          <img src="{{ $image.Permalink }}" alt="{{ .Params.alt }}" width="{{ $image.Width }}" height="{{ $image.Height }}" />
+        {{- end }}
+      </figure>
+  </a>
+  <a class="col-12" href="{{ .Permalink }}">
+    <h3>
+      {{- .Title -}}
+    </h3>
+  </a>
+  <ul class="col-8 row">
+    {{ range first 3 (.GetTerms "tags") -}}
+      <li class="col-4">
+        <a href="{{ .Permalink }}">{{- .LinkTitle -}}</a>
+      </li>
+    {{- end }}
+  </ul>
+  <ul class="col-8">
+    {{ range (.GetTerms "authors") -}}
+      <li>
+        <a href="{{ .Permalink }}">{{- .LinkTitle -}}</a>
+      </li>
+    {{- end }}
+  </ul>
+  <a class="col-4" href="{{ .Permalink }}">
+    <span>
+      {{- .Date.Format "2006.01.02" -}}
+    </span>
+  </a>
+</article>

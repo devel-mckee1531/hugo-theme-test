@@ -1,0 +1,21 @@
+{{ define "main" }}
+<section>
+  <h2>
+    PICK UP
+  </h2>
+  <article>
+    <figure>
+    </figure>
+    <h3>
+      title
+    </h3>
+  </article>
+</section>
+<ul class="row">
+  {{ range .Site.RegularPages }}
+    <li class="col-4">
+    {{ partial "common/ali.html" . }}
+    </li>
+  {{ end }}
+</ul>
+{{ end }}

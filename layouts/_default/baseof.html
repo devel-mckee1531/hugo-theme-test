@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <title>
+      {{- block "title" . -}}
+        {{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{.Site.Title }}{{ end }}
+      {{- end -}}
+    </title>
+    {{- partial "head/meta.html" . -}}
+    {{- partial "head/style.html" . -}}
+  </head>
+  <body>
+    <header class="container-fluid">
+      {{ partial "header/nav.html" . }}
+    </header>
+    <main class="container">
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer class="container-fluid">
+      {{ partial "footer/company.html" . }}
+      {{ partial "footer/nav.html" . }}
+    </footer>
+    {{ partial "foot/script.html" . }}
+  </body>
+</html>

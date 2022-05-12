@@ -1,0 +1,39 @@
+[meta]
+    author = ""
+    description = "株式会社e2eのエンジニアのエンジニアによるエンジニアのためのBlog"
+    generator = ""
+    keywords = ""
+    robots = "noindex,nofollow"
+    facebookAppId = ""
+    twitterCard = "summary_large_image"
+  [address]
+    postal = "100-0004"
+    address = "東京都千代田区大手町1-6-1 大手町ビル3階"
+    telephone = "03-6262-5381"
+    email = ""
+    fax = ""
+  [logo]
+  [[sns]]
+    identifier = "facebook"
+    url = "https://www.facebook.com/e2e.2020.02/"
+    [sns.image]
+      src = "img/sns/facebook.png"
+      alt = "facebook icon"
+  [[sns]]
+    identifier = "twitter"
+    url = "https://twitter.com/e2e_inc/"
+    [sns.image]
+      src = "img/sns/twitter.png"
+      alt = "twitter icon"
+  [[sns]]
+    identifier = "instagram"
+    url = "https://www.instagram.com/e2e.inc_official/"
+    [sns.image]
+      src = "img/sns/instagram.png"
+      alt = "instagram icon"
+  [[sns]]
+    identifier = "note"
+    url = "https://note.com/e2e_inc/"
+    [sns.image]
+      src = "img/sns/note.png"
+      alt = "note icon"
