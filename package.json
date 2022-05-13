@@ -13,7 +13,7 @@
     "prebuild": "rm -rf assets/js/* assets/css/*",
     "build:assets": "webpack --mode production",
     "build:site": "hugo",
-    "build": "run-s build:assets build:site"
+    "build": "run-s build:assets"
   },
   "devDependencies": {
     "@squoosh/lib": "^0.4.0",
