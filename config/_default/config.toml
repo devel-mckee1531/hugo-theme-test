@@ -1,5 +1,5 @@
 baseurl = "/"
-copyright = "e2e inc"
+copyright = "r-makino"
 defaultContentLanguage = "ja"
 disableKinds = []
 enableEmoji = false
@@ -7,6 +7,6 @@ enableInlineShortcodes = false
 enableRobotsTXT = true
 googleAnalytics = ""
 hasCJKLanguage = true
-languageCode = "ja-jp"
+languageCode = "ja-JP"
 paginate = 6
 title = "Tech Blog"
